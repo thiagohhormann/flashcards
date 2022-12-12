@@ -1,0 +1,84 @@
+body {
+    background-color: #7388ff;
+}
+div.container {
+    height: 10em;
+    position: relative 
+    
+}
+div.container p {
+    margin: 0;
+    background: #455cff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+.show-btn {
+    border-color: #455cff;
+    color: black;
+}
+.show-btn:hover{
+background: #455cff;
+}
+.question-card {
+    position: relative;
+    background: whitesmoke;
+    border-color: #455cff;
+    
+}
+.feedback{
+    display: none;
+}
+
+textarea {
+    border-radius: 0.25rem;
+    border-color: #455cff;
+}
+
+.close-btn {
+    position: absolute;
+    top: 0;
+    right: 2%;
+    font-size: 2rem;
+    color: #ff667a;
+    cursor: pointer;
+}
+.close-btn:hover{
+    color: #e9001f;
+}
+.submitBtn {
+    border: 0.2rem solid darkgray;
+    color: #ff667a;
+    background: darkgrey;
+}
+
+.submitBtn:hover {
+    background: darkgoldenrod;
+    color: whitesmoke;
+  }
+
+.edit-flashcard {
+    border: 0.2rem solid darkgray;
+    color: black;
+    background: darkgrey;
+}
+.edit-flashcard:hover{
+    background: darkgoldenrod;
+
+}
+.delete-flashcard{
+    border: 0.2rem solid darkgray;
+    color: #ff667a;
+    background-color: darkgray;
+}
+.delete-flashcard:hover {
+    background: darkgoldenrod;
+  }
+  .resposta {
+    display: none;
+  }
+  .showItem {
+    display: block;
+  }
